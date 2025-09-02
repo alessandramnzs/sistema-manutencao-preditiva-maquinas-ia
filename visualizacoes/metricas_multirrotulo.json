@@ -1,0 +1,30 @@
+{
+  "best_model": "XGBoost",
+  "best_f1_micro": 0.2916666666666667,
+  "all_results": {
+    "RandomForest": {
+      "f1_micro": 0.14634146341463414,
+      "f1_macro": 0.029268292682926828,
+      "precision_micro": 0.75,
+      "recall_micro": 0.08108108108108109,
+      "hamming_loss": 0.0009926262053318207,
+      "subset_accuracy": 0.9950368689733409
+    },
+    "XGBoost": {
+      "f1_micro": 0.2916666666666667,
+      "f1_macro": 0.058333333333333334,
+      "precision_micro": 0.6363636363636364,
+      "recall_micro": 0.1891891891891892,
+      "hamming_loss": 0.0009642654566080545,
+      "subset_accuracy": 0.9951786727169597
+    },
+    "MLP": {
+      "f1_micro": 0.04580152671755725,
+      "f1_macro": 0.00916030534351145,
+      "precision_micro": 0.031914893617021274,
+      "recall_micro": 0.08108108108108109,
+      "hamming_loss": 0.0035450935904707886,
+      "subset_accuracy": 0.982274532047646
+    }
+  }
+}
