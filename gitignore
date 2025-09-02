@@ -1,0 +1,10 @@
+__pycache__/
+*.pkl
+env/
+.vscode/
+*.log
+*.tmp
+*.swp
+data/*.csv
+api/*.pkl
+.streamlit/
